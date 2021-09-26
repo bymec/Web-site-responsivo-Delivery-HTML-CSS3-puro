@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    background: #F8F6F1;
+}
+header {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1020px;
+    margin: 0 auto;
+    font-size: larger;
+    flex-wrap: wrap;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+.btninicio {
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    width: 65px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    border: solid 2px black;
+    text-align: center;
+}
+#homepage {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1020px;
+    margin: 0 auto;
+    height: 70vh;
+}
+
+img {
+    display: block;
+    max-width: 520px;
+}
+.text1 {
+    margin: 10px;
+}
+#homepage div {
+    margin: 10px;
+}
+#sobrepage {
+    font-size: larger;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1020px;
+    margin: 0 auto;
+    height: 70vh;
+}
+#sobrepage div {
+    margin: 30px;
+}
+
+#servicopage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1020px;
+    margin: 0 auto;
+    height: 70vh; 
+}
+#servicopage img {
+    display: block;
+    max-width: 250px;
+}
+.boxservico {
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;   
+}
+.card {
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    height: 330px;
+    margin: 15px ;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.164), -10px -10px 10px rgba(0, 0, 0, 0.164);
+}
+.card div {
+    margin: 10px;
+}
+.servicoh3 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
+#servicopage a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: 600;
+}
+#entregapage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1020px;
+    margin: 0 auto;
+    height: 80vh;
+}
+#entregapage div {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
+.iconimg {
+    max-width: 30px;
+}
+.btnentrega {
+    
+    display: flex;
+}
+.btnentrega a {
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contatofinal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1020px;
+    margin: 0 auto;
+    height: 40vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: 600;  
+}
+.textfinal {
+    width: 500px;
+}
+#copyfinal {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1020px;
+    margin: 0 auto;
+    height: 40vh;
+    font-weight: 600;
+}
+#copyfinal a {
+    color: black;
+    text-decoration: none;
+}
+#copyfinal div {
+    display: grid;
+    
+}
+.textcopy {
+ width: 250px;
+}
+.copyright {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 5vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+#menu-mobile {
+    display: none;
+}
+@media  (max-width: 720px) {
+    #homepage {
+        display: grid;
+        grid-template-columns: 2fr;
+        margin: 0 auto;
+        max-width: 450px;
+    }
+    nav {
+        display: none;
+    }
+    header h2 {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        max-width: 450px;
+    }
+    #sobrepage {
+        display: grid;
+        grid-template-columns: 2fr;
+        margin: 0 auto;
+        max-width: 450px;
+    }
+    #servicopage {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        max-width: 450px;
+    }
+    .boxservico {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+        max-width: 450px;
+    }
+    #entregapage {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 550px;
+        max-width: 450px; 
+    }
+    #contatofinal {
+        display: grid;
+        grid-template-columns: 2fr;
+        margin: 0 auto;
+        max-width: 450px;
+    }
+    #copyfinal {
+        display: grid;
+        grid-template-columns: 2fr;
+        margin: 0 auto;
+        max-width: 450px;
+    }
+    #menu-mobile {
+       position: fixed;
+       bottom: 0; 
+       left: 0;
+       background-color: #F8F6F1;
+       width: 100%;
+       height: 4rem;
+       display: grid;
+       align-items: center;
+       border-radius: 10px;
+       box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.164), -10px -10px 10px rgba(0, 0, 0, 0.164);
+    }
+    #icon-mobile {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;   
+    }
+    #icon-mobile img {
+        
+        max-width: 30px;
+    }
+    .copyright {
+        height: 35vh;
+    }
+}
+@media (max-width: 375px) {
+    #homepage {
+        display: grid;
+        grid-template-columns: 2fr;
+         max-width: 300px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    img {
+        max-width: 350px;
+        display: block;
+    }
+    
+}
